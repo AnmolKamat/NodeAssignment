@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+.main-container{
+  width: 70%;
+  margin: 2rem auto 0 auto;
+  background-color: azure;
+  border-radius: 5px;
+  .top-container{
+    width: 100%;
+    display: flex;
+    .left-container{
+      img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+    .right-container{
+      margin-top: 4rem;
+      .poke-Name{
+        font-family: 'Karla', sans-serif;
+        font-size: 3rem;
+        line-height: 100%;
+        margin: unset;
+      }
+    }
+  }
+  .bottom-container{
+    .gen-container{
+      .gen-item-container{
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+      }
+    }
+  }
+}

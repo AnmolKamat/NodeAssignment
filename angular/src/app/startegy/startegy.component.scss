@@ -1,0 +1,43 @@
+.strategy-container{
+  width: 18rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  .strategy-name{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .strategy-item{
+    font-size: 0.8rem;
+  }
+  .sub-container{
+    display: flex;
+    justify-content: space-between;
+    .strategy-ev{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgb(194, 177, 180);
+      padding: 1rem;
+      .ev-head{
+        margin: unset;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      .ev-item{
+        font-size: 0.8rem;
+        margin: unset;
+      }
+    }
+    .moves-container{
+      background-color: bisque;
+      padding: 1rem;
+      .moves-head{
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
+
+  }
+}

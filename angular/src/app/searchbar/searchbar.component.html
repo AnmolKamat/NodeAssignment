@@ -1,0 +1,22 @@
+<div class="container">
+  <form [formGroup]="formGroup" class="formEle">
+    <mat-form-field class="matFormField">
+      <mat-label>
+        search...
+      </mat-label>
+      <input
+      matInput type="text"
+      [matAutocomplete]="auto"
+      formControlName="search"
+      class="formInp"
+      (keyup.enter)="searchFunction()"
+      />
+      <mat-autocomplete #auto="matAutocomplete" class="matAutocomplete">
+        <mat-option *ngFor="let item of filteredOptions" [value]="item">
+          {{item}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+
+</div>
